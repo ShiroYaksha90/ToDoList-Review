@@ -23,13 +23,14 @@ const addTask = (e) => {
     attribute.value = index;
     article.setAttributeNode(attribute);
     article.innerHTML = `<div class="item">
-    <input type="checkbox" class="check-box" checked=${item.status}><div class="list"><p class="list-item">${item}</p></div>
+    <input type="checkbox" class="check-box" ><div class="list"><p class="list-item">${item}</p></div>
     </div>
     <div class="icons">
     <i class="fa-solid fa-ellipsis-vertical"></i>
     <i class="fa-solid fa-trash-clock fa-trash"></i>
     </div>`;
     const checkBoxes = article.querySelectorAll('.check-box');
+    checkBoxes.checked = status;
     for (let i = 0; i < checkBoxes.length; i += 1) {
       checkBoxes[i].addEventListener('change', (e) => {
         if (checkBoxes[i].checked === true) {
