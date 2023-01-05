@@ -1,0 +1,117 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #d3d3d3;
+}
+
+.my-list {
+  width: 60%;
+  margin: 40px auto 0 auto;
+  background: #fff;
+  box-shadow: 3px 3px 20px #888;
+}
+
+.formTitle {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #dedbd2;
+}
+
+.formControl {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #dedbd2;
+}
+
+.fa-turn-down-left {
+  color: red;
+}
+
+label {
+  display: none;
+}
+
+.to-do {
+  padding: 10px;
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
+::-webkit-input-placeholder {
+  font-style: italic;
+}
+
+article {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #dedbd2;
+}
+
+.item {
+  display: flex;
+  gap: 20px;
+}
+
+.icons {
+  display: flex;
+  gap: 30px;
+}
+
+.fa-ellipsis-vertical {
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
+
+.fa-trash {
+  display: none;
+  cursor: pointer;
+}
+
+.show {
+  display: inline-block;
+}
+
+.clear {
+  padding: 10px;
+  background: #edede9;
+  text-align: center;
+}
+
+.clearbtn {
+  border: none;
+  outline: none;
+  font-size: 20px;
+  color: #888;
+  cursor: pointer;
+}
+
+.list-container {
+  display: none;
+}
+
+.display-container {
+  display: block;
+}
+
+.edit-input {
+  width: 80%;
+  border: none;
+  outline: none;
+  background: #e9d8a6cc;
+}
+
+.edit-article {
+  background: #e9d8a6cc;
+}
