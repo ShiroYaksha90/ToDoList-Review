@@ -62,7 +62,7 @@ In order to run this project you need:
 
 To get a local copy up and running follow these simple example steps:
 1. Clone this repository or download the Zip folder:
-**``git clone repo [<link>](https://github.com/ShiroYaksha90/Webpack.git)``**
+**``git clone repo [<link>](https://github.com/ShiroYaksha90/ToDoList-Review.git)``**
 1. Navigate to the location of the folder in your machine:
 **``you@your-Pc-name:~$ cd <folder>``**
 
@@ -106,6 +106,6 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License <a name="license"></a>
 
-This [project](https://github.com/ShiroYaksha90/ToDoList.git) is [MIT](https://github.com/ShiroYaksha90/ToDoList/blob/listStructure/LICENSE) licensed.
+This [project](https://github.com/ShiroYaksha90/ToDoList.git) is [MIT](https://github.com/ShiroYaksha90/ToDoList-Review/blob/review/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
